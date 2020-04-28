@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gXf-uN-EHb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2v7-q2-Aji">
+            <objects>
+                <viewController id="gXf-uN-EHb" customClass="ViewController" customModule="ChrisLU2A1Q3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dtd-5Z-780" customClass="ARSCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgL-GD-riq">
+                                <rect key="frame" x="16" y="40" width="343" height="627"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bucket List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQn-ej-k5K">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="39" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ho1-tP-N5Q">
+                                        <rect key="frame" x="0.0" y="33" width="343" height="594"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="nOV-Bv-HPF">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="59.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add &amp; Remove" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cb-h9-oF6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="113" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="SV5-kR-JPu">
+                                                        <rect key="frame" x="0.0" y="29.5" width="343" height="30"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your bucket list" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-XJ-F1m">
+                                                                <rect key="frame" x="0.0" y="0.0" width="256" height="30"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                                <connections>
+                                                                    <action selector="editEnd:" destination="gXf-uN-EHb" eventType="editingDidEnd" id="Nxi-h2-zvE"/>
+                                                                </connections>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwD-hU-s8C">
+                                                                <rect key="frame" x="297" y="0.0" width="46" height="30"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <connections>
+                                                                    <action selector="buttonClicked:" destination="gXf-uN-EHb" eventType="touchUpInside" id="Ig8-Ig-Wdm"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="SV5-kR-JPu" secondAttribute="bottom" id="8UP-NK-OCR"/>
+                                                    <constraint firstItem="SV5-kR-JPu" firstAttribute="leading" secondItem="nOV-Bv-HPF" secondAttribute="leading" id="SDG-fv-Se6"/>
+                                                    <constraint firstAttribute="trailing" secondItem="SV5-kR-JPu" secondAttribute="trailing" id="gjs-AZ-69N"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBp-Ag-zo5">
+                                                <rect key="frame" x="0.0" y="75.5" width="338" height="134"/>
+                                                <string key="text">If you enter the bucket list, it will be added.
+If you enter a number of the bucket list, it will be removed
+
+;sum n summary: it is for making summary of your bucket list when you've done (e.g. ;sum 1 I loved)
+;com list: it is for comparing with owner's bucket list (e.g. ;com sky diving)</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PEd-FG-pq7">
+                                                <rect key="frame" x="0.0" y="229" width="343" height="365"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bucket List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcv-qu-Ysb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lN-6I-A1M">
+                                                        <rect key="frame" x="0.0" y="28.5" width="343" height="336.5"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="9lN-6I-A1M" secondAttribute="trailing" id="8EQ-r5-i14"/>
+                                                    <constraint firstItem="9lN-6I-A1M" firstAttribute="leading" secondItem="PEd-FG-pq7" secondAttribute="leading" id="J54-pX-Mbd"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9lN-6I-A1M" secondAttribute="bottom" id="avc-9J-mMe"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9lN-6I-A1M" secondAttribute="bottom" id="caG-cb-jix"/>
+                                                    <constraint firstAttribute="trailing" secondItem="9lN-6I-A1M" secondAttribute="trailing" id="elm-S0-RYL"/>
+                                                    <constraint firstItem="9lN-6I-A1M" firstAttribute="leading" secondItem="PEd-FG-pq7" secondAttribute="leading" id="hRN-Ce-0DN"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="nOV-Bv-HPF" firstAttribute="top" secondItem="ho1-tP-N5Q" secondAttribute="top" id="00f-Dg-Nkf"/>
+                                            <constraint firstItem="PEd-FG-pq7" firstAttribute="leading" secondItem="ho1-tP-N5Q" secondAttribute="leading" id="PjG-Pv-tRq"/>
+                                            <constraint firstAttribute="bottom" secondItem="PEd-FG-pq7" secondAttribute="bottom" id="WYd-eZ-mxV"/>
+                                            <constraint firstAttribute="trailing" secondItem="nOV-Bv-HPF" secondAttribute="trailing" id="hEW-2v-ahW"/>
+                                            <constraint firstAttribute="trailing" secondItem="PEd-FG-pq7" secondAttribute="trailing" id="iVP-Kb-sBn"/>
+                                            <constraint firstItem="nOV-Bv-HPF" firstAttribute="leading" secondItem="ho1-tP-N5Q" secondAttribute="leading" id="n7V-Xj-1Xz"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wgL-GD-riq" firstAttribute="top" secondItem="gTw-Ah-gGR" secondAttribute="top" constant="20" id="BSz-tT-k2d"/>
+                            <constraint firstItem="wgL-GD-riq" firstAttribute="leading" secondItem="gTw-Ah-gGR" secondAttribute="leading" constant="16" id="NXd-Ra-9tZ"/>
+                            <constraint firstAttribute="bottom" secondItem="wgL-GD-riq" secondAttribute="bottom" id="O9B-6F-WJW"/>
+                            <constraint firstAttribute="trailing" secondItem="wgL-GD-riq" secondAttribute="trailing" constant="16" id="XdM-D2-K5A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gTw-Ah-gGR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H5O-cT-nEu"/>
+                    <connections>
+                        <outlet property="bucketTextView" destination="9lN-6I-A1M" id="Q9E-jU-W39"/>
+                        <outlet property="helpingLabel" destination="sBp-Ag-zo5" id="VKM-Ud-sXm"/>
+                        <outlet property="textField" destination="nRd-XJ-F1m" id="yNs-6K-8oz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XgW-PW-Jhz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4812" y="81.409295352323838"/>
+        </scene>
+    </scenes>
+</document>

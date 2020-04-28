@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    tools:context=".gamepage">
+
+    <Button
+        android:id="@+id/yellowcard2"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/yellowbutton"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/card3"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/card2"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/card"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/yellowcard1"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/yellowbutton"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/yellowcard"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/yellowbutton"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/card10"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/card6"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/card9"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/card8"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/card7"
+        android:layout_width="83dp"
+        android:layout_height="108dp"
+        android:background="@drawable/buttonsetting"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/letplay"
+        android:layout_width="223dp"
+        android:layout_height="32dp"
+        android:text="Let's Make a Pizza!"
+        android:textColor="#ffe819 "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="117dp"
+        android:layout_height="34dp"
+        android:text="Score: 3"
+        android:textColor="#ffe819 "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+</android.support.constraint.ConstraintLayout>
