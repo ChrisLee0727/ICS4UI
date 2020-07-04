@@ -1,4 +1,9 @@
 # ICS4UI
 ICS4UI - Swift / Java
 
-I worked this respository when I was in High school Computer Sceience course - ICS4UI. 
+I worked on these assignmens in High school Computer Science course - ICS4UI.
+Each following details are included in its folder.
+
+-------
+Language: 
+Python, Swift, Java
