@@ -1,11 +1,4 @@
-# ICS4UI
-ICS4UI - Swift / Java
+# ICS4UI ASSIGNMENTS
+> I have done these assignments in high school for the grade 12 computer science course, ICS4UI. 
 
-I worked on these assignmens in High school Computer Science course - ICS4UI.
-Each following details are included in its folder.
-
--------
-<u>Language</u>
-- Python
-- Swift
-- Java
+Click on the each assignment folder for more information
