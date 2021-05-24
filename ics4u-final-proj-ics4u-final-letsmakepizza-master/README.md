@@ -1,15 +1,8 @@
-Let's make a pizza!
-============================================
-ics4u-final-proj-ics4u-final-letsmakepizza created by GitHub Classroom  
-Put urgent daily stuff here in the readme - most recent on top.  
+# Let's Make Pizza
+> IOS and Android app version of the game, LET'S MAKE PIZZA
 
-IOS
--------------
+![Original Game Image](https://user-images.githubusercontent.com/22815252/119322009-2f63b500-bcb8-11eb-9e4e-2e9554bd412c.png)
 
-May 22: init, startmenu layout  
-May 23: GameMenu (only layout), DifficultyMenu were created / IOS branches were also created
+## Note
 
-Android
--------------
-
-May 22: init, startmenu layout
+I leaded the IOS developement team as a project manager and developer. 
